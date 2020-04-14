@@ -1,7 +1,7 @@
 const config = require('./src/data/config');
 
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: '.env.${process.env.NODE_ENV}',
 });
 
 module.exports = {
@@ -22,7 +22,7 @@ module.exports = {
         fieldName: 'github',
         url: 'https://api.github.com/graphql',
         headers: {
-          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+          Authorization: 'bearer ${process.env.GITHUB_TOKEN}',
         },
         fetchOptions: {},
       },
