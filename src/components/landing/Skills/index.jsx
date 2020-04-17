@@ -11,7 +11,7 @@ export const Skills = () => (
         <img src={dev} alt="I’m Lukasz and I’m a full-stack software engineer!" />
       </Thumbnail>
       <Details>
-        <h1>Hi there!</h1>
+        <h1>Hi there all!</h1>
         <p>Ready to work! :)</p>
         <Button as={AnchorLink} href="#contact">
           Hire me
