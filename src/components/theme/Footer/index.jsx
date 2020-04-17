@@ -19,7 +19,7 @@ export const Footer = () => (
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						Smakosh
+						GeekService
 					</a>
 				</span>
 			</Details>
